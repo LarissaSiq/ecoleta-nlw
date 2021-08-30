@@ -1,0 +1,102 @@
+
+@media (max-width: 900px) {
+    /* HOME */
+    #page-home {
+        background-position-x: 80vw;
+        width: 100vw;
+        height: -50vh;
+    }
+
+    #page-home .content {
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home main {
+        align-items: center;
+    }
+    #page-home header a {
+        position: absolute;
+        bottom: 7%;
+        left: 45%;
+        transform: translateX(-40%);
+    }
+
+    /* SEARCH RESULTS */
+    #page-search-results .cards {
+        grid-template-columns: 1fr;
+    }
+    #page-search-results .cards img{
+        height: 250px;
+    }
+    body::after{
+        position: absolute;
+        bottom: -80vh;
+    }
+
+    /* CREATE POINT */
+    #page-create-point form h1{
+        text-align: center;
+    }
+    #page-create-point form legend h2{
+        margin-left: 0vh;
+    }
+    #page-create-point header a {
+        margin-left: 30px;
+        font-size: 14px;
+        text-align: end;
+    }
+    #page-create-point header a span{
+        display: none;
+    }
+    
+    #page-create-point .field-group{
+        flex-direction: column;
+    }
+    #page-create-point form .field-group .field + .field {
+        margin-left: 0;
+    }
+    #page-create-point legend {
+        display: grid
+    }
+    #page-create-point .items-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 3vw;   
+    }
+    #page-create-point form button {
+        margin-left: 15vw;
+        width: 50vw;
+    }      
+    
+    /* MODAL */
+    #modal .header {
+        display: flex;        
+        flex-direction: column;
+    }
+    #modal .header a {
+        position: absolute;
+        margin-top: 40vh;
+        display: block;
+    }
+    #modal form input {
+        margin-left: 4vw;
+    }
+    #modal form label {
+        margin-left: 12vw;
+        display: block;
+    }
+    #modal .header h1 {
+        margin-right: 15px;
+        display: block;
+    }
+    
+}
+
+@media (min-width: 1400px) {
+    #page-home {
+        background-position-y: 30vh;
+        background-position-x: 45vw;
+        display: block;
+    }
+}
