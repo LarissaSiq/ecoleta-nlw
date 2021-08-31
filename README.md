@@ -1,7 +1,7 @@
 # Ecoleta
 Aplicação web e responsiva desenvolvida com HTML, CSS, JavaScript da qual o usuário pode cadastrar pontos de coleta e também pode procurá-los. Também foi ultilizado banco de dados para o cadastramento dos pontos. Tudo desenvolvido em Vanilla JS.
 
-<img width="650" alt="desktop" src="https://user-images.githubusercontent.com/64505863/131546702-c130c3b4-57fa-4234-bce8-fdf2fce9293d.png"><img width="163.9" alt="mobile" src="https://user-images.githubusercontent.com/64505863/131546944-a1b99eab-b6bb-48c1-a517-79bc0b0377cc.png">
+<img width="650" alt="desktop" src="https://user-images.githubusercontent.com/64505863/131546702-c130c3b4-57fa-4234-bce8-fdf2fce9293d.png"> <img width="163.9" alt="mobile" src="https://user-images.githubusercontent.com/64505863/131546944-a1b99eab-b6bb-48c1-a517-79bc0b0377cc.png">
 *Desktop e Mobile*
 
 # Funcionamento da Aplicação
